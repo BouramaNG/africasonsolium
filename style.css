@@ -756,6 +756,10 @@ input, textarea, select { font-family: inherit; }
   overflow: hidden;
 }
 
+.sectors-grid--5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .sector-item {
   background: var(--white);
   padding: 36px 28px;
@@ -1201,6 +1205,7 @@ input, textarea, select { font-family: inherit; }
 
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .sectors-grid { grid-template-columns: repeat(2, 1fr); }
+  .sectors-grid--5 { grid-template-columns: repeat(3, 1fr); }
   .about-grid { gap: 48px; }
   .why-inner { gap: 56px; }
 }
@@ -1264,6 +1269,7 @@ input, textarea, select { font-family: inherit; }
 
   .services-grid { grid-template-columns: 1fr; }
   .sectors-grid { grid-template-columns: 1fr 1fr; }
+  .sectors-grid--5 { grid-template-columns: 1fr 1fr; }
   .why-right { grid-template-columns: 1fr; }
 
   .contact-form { padding: 32px 24px; }
@@ -1277,6 +1283,7 @@ input, textarea, select { font-family: inherit; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .stat-item::after { display: none !important; }
   .sectors-grid { grid-template-columns: 1fr; }
+  .sectors-grid--5 { grid-template-columns: 1fr; }
   .footer-links { grid-template-columns: 1fr; }
   .hero-actions { flex-direction: column; align-items: flex-start; gap: 14px; }
 
